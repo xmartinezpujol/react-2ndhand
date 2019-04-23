@@ -1,7 +1,7 @@
 import React from 'react';
-import { Switch, Route, withRouter } from 'react-router-dom';
+import { Redirect, Route, Switch, withRouter } from 'react-router-dom';
 
-import Product from './components/Product';
+import ProductDetail from './components/ProductDetail';
 import ProductList from './containers/ProductList';
 
 class App extends React.Component {
@@ -11,13 +11,14 @@ class App extends React.Component {
         <Route
           exact
           path="/list"
-          render={ProductList}
+          component={ProductList}
         />
         <Route
           exact
           path="/list/:id"
-          component={Product}
+          component={ProductDetail}
         />
+        <Redirect to="/list" />
       </Switch>
     );
   }
