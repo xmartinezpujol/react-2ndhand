@@ -1,17 +1,29 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import { Card, Icon, Label } from 'semantic-ui-react';
+import { Card, Icon } from 'semantic-ui-react';
 
-import { CardDescription, CardWrapper } from './styles';
+import {
+  CardDescription,
+  CardInfo,
+  CardWrapper,
+  LabelAdapter,
+  Title,
+} from './styles';
 
 const ProductCard = props => (
-  <CardWrapper>
+  <CardWrapper link>
     <Card.Content>
-      <Card.Header>{props.data.title}</Card.Header>
+      <Card.Header>
+        <Title>
+          {props.data.title}
+        </Title>
+      </Card.Header>
       <Card.Meta>
         {props.data.params.map(param => (
-          <Label>{param[1]}</Label>
+          <LabelAdapter key={`${props.data.id}-${param[0]}`} color="teal">{param[0]}
+            <LabelAdapter.Detail>{param[1]}</LabelAdapter.Detail>
+          </LabelAdapter>
         ))}
       </Card.Meta>
       <CardDescription>{props.data.description.length > 100
@@ -20,12 +32,10 @@ const ProductCard = props => (
       </CardDescription>
     </Card.Content>
     <Card.Content extra>
-      <a>
-        <Icon name="time" />
-        {`${props.data.created}`}
-        <Icon name="map marker" />
-        {`${props.data.city_label}`}
-      </a>
+      <Icon color="teal" name="time" />
+      <CardInfo>{`${props.data.created}`}</CardInfo>
+      <Icon color="teal" name="map marker" />
+      <CardInfo>{`${props.data.city_label}`}</CardInfo>
     </Card.Content>
   </CardWrapper>
 );
@@ -35,6 +45,7 @@ ProductCard.propTypes = {
     city_label: PropTypes.string,
     created: PropTypes.string,
     description: PropTypes.string,
+    id: PropTypes.string,
     title: PropTypes.string,
     params: PropTypes.array,
   }).isRequired,
