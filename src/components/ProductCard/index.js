@@ -1,6 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
+import { Link } from 'react-router-dom';
+
 import { Card, Icon } from 'semantic-ui-react';
 
 import {
@@ -13,7 +15,7 @@ import {
 
 const ProductCard = props => (
   <CardWrapper link>
-    <Card.Content>
+    <Card.Content as={Link} href={`/list/${props.data.id}`} to={`/list/${props.data.id}`}>
       <Card.Header>
         <Title>
           {props.data.title}
