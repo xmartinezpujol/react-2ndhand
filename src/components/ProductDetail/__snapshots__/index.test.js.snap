@@ -1,0 +1,98 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProductDetail renders correctly 1`] = `
+<div
+  className="styles__DetailPageWrapper-sc-1ybtg9o-0 vGzzK"
+>
+  <div
+    className="styles__DetailContainer-sc-1ybtg9o-1 kjWyKX"
+  >
+    <a
+      href="/list"
+      onClick={[Function]}
+    >
+      <i
+        aria-hidden="true"
+        className="teal arrow left big icon"
+        onClick={[Function]}
+      />
+    </a>
+    <div
+      className="ui card styles__CardWrapper-sc-1ybtg9o-2 irpKAG"
+      onClick={[Function]}
+    >
+      <div
+        className="content"
+      >
+        <div
+          className="header"
+        >
+          <div
+            className="styles__Title-sc-1ybtg9o-6 fRLAIq"
+          >
+            iphone 5s 16gb silver bialy stan dbd Pl dystrybucja 100% sprawny
+          </div>
+        </div>
+        <div
+          className="meta"
+        >
+          <div
+            className="ui teal label styles__LabelAdapter-sc-1ybtg9o-5 ekGhay"
+            onClick={[Function]}
+          >
+            Marka
+            <div
+              className="detail"
+            >
+              iPhone
+            </div>
+          </div>
+          <div
+            className="ui teal label styles__LabelAdapter-sc-1ybtg9o-5 ekGhay"
+            onClick={[Function]}
+          >
+            Stan
+            <div
+              className="detail"
+            >
+              Używane
+            </div>
+          </div>
+        </div>
+        <div
+          className="description styles__CardDescription-sc-1ybtg9o-3 esmgxQ"
+        >
+          Sprzedam Iphone 5s w bdb stanie technicznym i wizualnym (jak na foto) telefon jest w 100 % sprawny wszystko dziala nie zawiesza sie i nie gubi sieci. Wizualnie jak na zdjeciach posiada normalne slady urzytkowania,
+Pl dystrybucja telefon fabrycznie bez blokady simlock. 
+Telefon sprzedaje w kmpl 
+W sklad zestawu wchodzi telefon ladowarka (ori) kabel sluchawki i opakowanie zgodne z imei
+        </div>
+      </div>
+      <div
+        className="extra content"
+      >
+        <i
+          aria-hidden="true"
+          className="teal time icon"
+          onClick={[Function]}
+        />
+        <span
+          className="styles__CardInfo-sc-1ybtg9o-4 ejvFdW"
+        >
+          10  lut
+        </span>
+        <i
+          aria-hidden="true"
+          className="teal map marker icon"
+          onClick={[Function]}
+        />
+        <span
+          className="styles__CardInfo-sc-1ybtg9o-4 ejvFdW"
+        >
+          Kobyłka
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;

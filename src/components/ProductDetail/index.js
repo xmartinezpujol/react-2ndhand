@@ -28,9 +28,7 @@ const ProductDetail = ({
           <React.Fragment>
             <Card.Content>
               <Card.Header>
-                <Title>
-                  {product.title}
-                </Title>
+                <Title>{product.title}</Title>
               </Card.Header>
               <Card.Meta>
                 {product.params.map(param => (

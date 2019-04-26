@@ -1,8 +1,6 @@
 import React from "react";
 // $FlowFixMe
 import Ads from '../../mocks/ads.json';
-import ProductCard from "../../components/ProductCard";
-import {ListContainer} from "../../containers/ProductList/styles";
 
 const initialState = {
   data: [],

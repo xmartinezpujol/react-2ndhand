@@ -1,3 +1,6 @@
 {
-  "presets": ["env", "react", "stage-0", "flow"]
+  "presets": ["react-app"],
+  "plugins": [
+    "babel-plugin-styled-components"
+  ]
 }

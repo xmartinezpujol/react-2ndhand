@@ -8,7 +8,6 @@
 <PROJECT_ROOT>/src/withTests.js
 <PROJECT_ROOT>/jestsetup.js
 <PROJECT_ROOT>/build
-<PROJECT_ROOT>/test
 <PROJECT_ROOT>/cypress/.*
 <PROJECT_ROOT>/.jest-test-results.json
 <PROJECT_ROOT>/webpack.common.js

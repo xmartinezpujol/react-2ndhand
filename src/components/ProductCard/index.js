@@ -13,34 +13,34 @@ import {
 } from './styles';
 
 const ProductCard = ({
-  data,
+  product,
 }: {
-  data: ProductType
+  product: ProductType
 }) => (
   <CardWrapper link>
-    <Card.Content as={Link} href={`/list/${data.id}`} to={`/list/${data.id}`}>
+    <Card.Content as={Link} href={`/list/${product.id}`} to={`/list/${product.id}`}>
       <Card.Header>
         <Title>
-          {data.title}
+          {product.title}
         </Title>
       </Card.Header>
       <Card.Meta>
-        {data.params.map(param => (
-          <LabelAdapter key={`${data.id}-${param[0]}`} color="teal">{param[0]}
+        {product.params.map(param => (
+          <LabelAdapter key={`${product.id}-${param[0]}`} color="teal">{param[0]}
             <LabelAdapter.Detail>{param[1]}</LabelAdapter.Detail>
           </LabelAdapter>
         ))}
       </Card.Meta>
-      <CardDescription>{data.description.length > 100
-        ? `${data.description.slice(0, 300)}...`
-        : data.description}
+      <CardDescription>{product.description.length > 300
+        ? `${product.description.slice(0, 300)}...`
+        : product.description}
       </CardDescription>
     </Card.Content>
     <Card.Content extra>
       <Icon color="teal" name="time" />
-      <CardInfo>{`${data.created}`}</CardInfo>
+      <CardInfo>{`${product.created}`}</CardInfo>
       <Icon color="teal" name="map marker" />
-      <CardInfo>{`${data.city_label}`}</CardInfo>
+      <CardInfo>{`${product.city_label}`}</CardInfo>
     </Card.Content>
   </CardWrapper>
 );

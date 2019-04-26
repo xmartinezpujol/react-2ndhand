@@ -1,0 +1,82 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProductCard renders correctly 1`] = `
+<div
+  className="ui link card styles__CardWrapper-sc-13wxosj-0 ksZAYB"
+  onClick={[Function]}
+>
+  <a
+    className="content"
+    href="/list/205799123"
+    onClick={[Function]}
+  >
+    <div
+      className="header"
+    >
+      <div
+        className="styles__Title-sc-13wxosj-4 gXnukw"
+      >
+        iphone 5s 16gb silver bialy stan dbd Pl dystrybucja 100% sprawny
+      </div>
+    </div>
+    <div
+      className="meta"
+    >
+      <div
+        className="ui teal label styles__LabelAdapter-sc-13wxosj-3 drDSqv"
+        onClick={[Function]}
+      >
+        Marka
+        <div
+          className="detail"
+        >
+          iPhone
+        </div>
+      </div>
+      <div
+        className="ui teal label styles__LabelAdapter-sc-13wxosj-3 drDSqv"
+        onClick={[Function]}
+      >
+        Stan
+        <div
+          className="detail"
+        >
+          Używane
+        </div>
+      </div>
+    </div>
+    <div
+      className="description styles__CardDescription-sc-13wxosj-1 jJIAfJ"
+    >
+      Sprzedam Iphone 5s w bdb stanie technicznym i wizualnym (jak na foto) telefon jest w 100 % sprawny wszystko dziala nie zawiesza sie i nie gubi sieci. Wizualnie jak na zdjeciach posiada normalne slady urzytkowania,
+Pl dystrybucja telefon fabrycznie bez blokady simlock. 
+Telefon sprzedaje w kmpl 
+W sk...
+    </div>
+  </a>
+  <div
+    className="extra content"
+  >
+    <i
+      aria-hidden="true"
+      className="teal time icon"
+      onClick={[Function]}
+    />
+    <span
+      className="styles__CardInfo-sc-13wxosj-2 hDerPd"
+    >
+      10  lut
+    </span>
+    <i
+      aria-hidden="true"
+      className="teal map marker icon"
+      onClick={[Function]}
+    />
+    <span
+      className="styles__CardInfo-sc-13wxosj-2 hDerPd"
+    >
+      Kobyłka
+    </span>
+  </div>
+</div>
+`;

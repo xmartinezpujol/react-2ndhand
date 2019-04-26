@@ -1,4 +1,4 @@
-export const rakutenStyles = {
+export const olxStyles = {
   button: {
     base: {
       fontFamily: 'sans-serif',

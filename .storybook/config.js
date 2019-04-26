@@ -2,7 +2,7 @@ import { addDecorator, configure } from '@storybook/react';
 import { setOptions } from '@storybook/addon-options';
 import { setDefaults } from '@storybook/addon-info';
 
-import { rakutenStyles } from './config_infostyles';
+import { olxStyles } from './config_infostyles';
 
 // Option defaults:
 setOptions({
@@ -10,7 +10,7 @@ setOptions({
    * name to display in the top left corner
    * @type {String}
    */
-  name: 'rakuten-ui',
+  name: 'olx-ui',
   /**
    * URL for name in top left corner to link to
    * @type {String}
@@ -80,7 +80,7 @@ setOptions({
 // addon-info
 setDefaults({
   header: true,
-  styles: rakutenStyles,
+  styles: olxStyles,
 });
 
 // Register decorator

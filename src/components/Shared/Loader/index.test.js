@@ -1,11 +1,11 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
 
-import Logo from './index';
+import Loader from './index';
 
-describe('Logo', () => {
+describe('Loader', () => {
   it('renders correctly', () => {
-    const tree = renderer.create(<Logo />);
+    const tree = renderer.create(<Loader />);
     expect(tree).toMatchSnapshot();
   });
 });

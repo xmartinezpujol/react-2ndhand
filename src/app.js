@@ -5,9 +5,9 @@ import { connect } from 'react-redux';
 import * as productActions from './redux/modules/products';
 import { getProductById } from './utils/products';
 
-import Loader from './components/Loader';
+import Loader from './components/Shared/Loader';
 import ProductDetail from './components/ProductDetail';
-import ProductList from './containers/ProductList';
+import ProductList from './components/ProductList';
 
 type Props = {
   products: ProductType[]
