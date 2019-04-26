@@ -4,23 +4,24 @@ import Logo from '../../components/Shared/Logo';
 import ProductCard from '../../components/ProductCard';
 
 import { ListContainer, ListPageWrapper, LogoWrapper } from './styles';
-// $FlowFixMe
-import Ads from '../../mocks/ads.json';
 
-type Props = {};
+type Props = {
+  products: ProductType[]
+};
 type State = {};
 
 class ProductList extends React.Component<Props, State> {
   render() {
+    const { products } = this.props;
     return (
       <ListPageWrapper>
         <ListContainer>
           <LogoWrapper>
             <Logo />
           </LogoWrapper>
-          {Ads.map(page => page.ads.map(ad => (
+          {products && products.map(ad => (
             <ProductCard key={ad.id} data={ad} />
-          )))}
+          ))}
         </ListContainer>
       </ListPageWrapper>
     );
