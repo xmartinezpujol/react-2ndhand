@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-
+// $FlowFixMe
 import { Card, Label } from 'semantic-ui-react';
 
 export const CardWrapper = styled(Card)`

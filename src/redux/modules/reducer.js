@@ -1,5 +1,5 @@
 import { combineReducers } from 'redux';
-
+// $FlowFixMe
 const rootReducer = combineReducers({
 });
 

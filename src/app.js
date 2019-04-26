@@ -4,7 +4,10 @@ import { Redirect, Route, Switch, withRouter } from 'react-router-dom';
 import ProductDetail from './components/ProductDetail';
 import ProductList from './containers/ProductList';
 
-class App extends React.Component {
+type Props = {};
+type State = {};
+
+class App extends React.Component<Props, State> {
   render() {
     return (
       <Switch>

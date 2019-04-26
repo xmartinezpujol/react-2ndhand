@@ -4,10 +4,13 @@ import Logo from '../../components/Shared/Logo';
 import ProductCard from '../../components/ProductCard';
 
 import { ListContainer, ListPageWrapper, LogoWrapper } from './styles';
-
+// $FlowFixMe
 import Ads from '../../mocks/ads.json';
 
-class ProductList extends React.Component {
+type Props = {};
+type State = {};
+
+class ProductList extends React.Component<Props, State> {
   render() {
     return (
       <ListPageWrapper>
