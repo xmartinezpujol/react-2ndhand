@@ -48,6 +48,7 @@ npm run test
 
 ``` shell
 npm run teste2e
+```
 
 ### Workflow
 
