@@ -84,6 +84,7 @@ npm run teste2e
 
 * Bundle size is currently not a problem. For a bigger project, use chunks in Webpack or libs like React Loadable.
 
+* Add a message in case there are no products in list view.
 
 ### Tech Stack
 ReactJS, Flow, Router, Styled-components, Storybook, Webpack4, Cypress, Jest, Enzyme.

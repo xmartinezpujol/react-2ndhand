@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import { BrowserRouter } from 'react-router-dom';
 import { Provider } from 'react-redux';
 import ScrollToTop from './utils/ScrollToTop';
+import registerServiceWorker from './registerServiceWorker';
 
 import App from './app';
 import configureStore from './redux/configureStore';
@@ -19,3 +20,6 @@ ReactDOM.render(
   </Provider>,
   document.getElementById('app'),
 );
+
+registerServiceWorker();
+
