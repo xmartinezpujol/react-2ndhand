@@ -12,7 +12,7 @@ const store = configureStore();
 
 ReactDOM.render(
   <Provider onUpdate={() => window.scrollTo(0, 0)} store={store}>
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <ScrollToTop>
         <App />
       </ScrollToTop>
