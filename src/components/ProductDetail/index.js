@@ -20,10 +20,10 @@ const ProductDetail = ({
 }) => (
   <DetailPageWrapper>
     <DetailContainer>
-      <Link to="/list" href="/list">
+      <Link to="/list" href="/list" data-cy="productCardDetailBackArrow">
         <Icon color='teal' name='arrow left' size='big' />
       </Link>
-      <CardWrapper>
+      <CardWrapper data-cy="productCardDetail">
         {product &&
           <React.Fragment>
             <Card.Content>

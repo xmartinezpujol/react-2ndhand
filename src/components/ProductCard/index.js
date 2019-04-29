@@ -17,7 +17,7 @@ const ProductCard = ({
 }: {
   product: ProductType
 }) => (
-  <CardWrapper link>
+  <CardWrapper link data-cy="productCard">
     <Card.Content as={Link} href={`/list/${product.id}`} to={`/list/${product.id}`}>
       <Card.Header>
         <Title>

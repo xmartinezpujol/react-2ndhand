@@ -1,6 +1,10 @@
 {
-  "extends": "react-app",
-  "plugins": [
-    "flowtype"
-  ]
+  "extends": ["react-app", "plugin:cypress/recommended"],
+  "plugins": ["flowtype", "cypress"],
+  "env": {
+    "cypress/globals": true
+  },
+  "rules": {
+    "no-unused-expressions": 0
+  }
 }

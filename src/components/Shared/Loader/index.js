@@ -1,9 +1,9 @@
 import React from 'react';
 
 const Loader = () => (
-  <React.Fragment>
+  <div data-cy="loader">
     Loading...
-  </React.Fragment>
+  </div>
 );
 
 export default Loader;
