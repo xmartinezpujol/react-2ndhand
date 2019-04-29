@@ -8,6 +8,7 @@ exports[`ProductDetail renders correctly 1`] = `
     className="styles__DetailContainer-sc-1ybtg9o-1 kjWyKX"
   >
     <a
+      data-cy="productCardDetailBackArrow"
       href="/list"
       onClick={[Function]}
     >
@@ -19,6 +20,7 @@ exports[`ProductDetail renders correctly 1`] = `
     </a>
     <div
       className="ui card styles__CardWrapper-sc-1ybtg9o-2 irpKAG"
+      data-cy="productCardDetail"
       onClick={[Function]}
     >
       <div

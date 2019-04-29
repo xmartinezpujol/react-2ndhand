@@ -12,6 +12,7 @@ exports[`ProductList renders correctly 1`] = `
     >
       <div
         className="logo"
+        data-cy="olxLogo"
       >
         <svg
           height="84"
@@ -47,6 +48,7 @@ exports[`ProductList renders correctly 1`] = `
     </div>
     <div
       className="ui link card styles__CardWrapper-sc-13wxosj-0 ksZAYB"
+      data-cy="productCard"
       onClick={[Function]}
     >
       <a
@@ -125,6 +127,7 @@ W sk...
     </div>
     <div
       className="ui link card styles__CardWrapper-sc-13wxosj-0 ksZAYB"
+      data-cy="productCard"
       onClick={[Function]}
     >
       <a
@@ -200,6 +203,7 @@ W sk...
     </div>
     <div
       className="ui link card styles__CardWrapper-sc-13wxosj-0 ksZAYB"
+      data-cy="productCard"
       onClick={[Function]}
     >
       <a
@@ -275,6 +279,7 @@ W sk...
     </div>
     <div
       className="ui link card styles__CardWrapper-sc-13wxosj-0 ksZAYB"
+      data-cy="productCard"
       onClick={[Function]}
     >
       <a
@@ -350,6 +355,7 @@ W sk...
     </div>
     <div
       className="ui link card styles__CardWrapper-sc-13wxosj-0 ksZAYB"
+      data-cy="productCard"
       onClick={[Function]}
     >
       <a
@@ -436,6 +442,7 @@ Paragon lub FV Vat-ma...
     </div>
     <div
       className="ui link card styles__CardWrapper-sc-13wxosj-0 ksZAYB"
+      data-cy="productCard"
       onClick={[Function]}
     >
       <a

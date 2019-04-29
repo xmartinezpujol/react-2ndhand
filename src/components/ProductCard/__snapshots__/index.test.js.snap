@@ -3,6 +3,7 @@
 exports[`ProductCard renders correctly 1`] = `
 <div
   className="ui link card styles__CardWrapper-sc-13wxosj-0 ksZAYB"
+  data-cy="productCard"
   onClick={[Function]}
 >
   <a

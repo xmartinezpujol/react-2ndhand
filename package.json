@@ -20,7 +20,7 @@
     "test": "jest --env=jsdom --coverage",
     "teste2e": "cypress open",
     "test:output": "jest --json --outputFile=.jest-test-results.json",
-    "storybook": "start-storybook -p 6006 -s ./public",
+    "storybook": "start-storybook -p 6006 -s ./dist",
     "build-storybook": "build-storybook",
     "flow": "flow"
   },

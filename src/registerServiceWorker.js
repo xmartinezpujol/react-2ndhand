@@ -23,7 +23,7 @@ const register = () => {
         });
     });
   }
-}
+};
 
 export function unregister () {
   if ('serviceWorker' in navigator) {
