@@ -70,7 +70,7 @@ npm run teste2e
 * Storybook is used for component development, following the Component Driven Design (CDD) mindset. Snapshots and UI testing could be added there also. This is a common ground with designers also to improve the companies visual Styleguide and use it as a UI Explorer.
 
 
-###Refactor / Scaling / Improvements
+### Refactor / Scaling / Improvements
 
 * Texts should be FormattedMessages from react-intl (or similar intl libs) to support multilingual functionality.
 
