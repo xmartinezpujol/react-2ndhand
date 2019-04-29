@@ -42,7 +42,7 @@ class App extends React.Component<Props, State> {
               : <ProductDetail product={getProductById(products.data, routerProps.match.params.id)} />
           )}
         />
-        <Redirect to="/list" />
+        <Redirect exact to="/list" />
       </Switch>
     );
   }
