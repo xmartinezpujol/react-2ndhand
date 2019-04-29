@@ -86,5 +86,7 @@ npm run teste2e
 
 * Add a message in case there are no products in list view.
 
+* Use BrowserRouter with basename={process.env.PUBLIC_URL} for deployment
+
 ### Tech Stack
 ReactJS, Flow, Router, Styled-components, Storybook, Webpack4, Cypress, Jest, Enzyme.

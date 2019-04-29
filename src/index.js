@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { BrowserRouter } from 'react-router-dom';
+import { HashRouter } from 'react-router-dom';
 import { Provider } from 'react-redux';
 import ScrollToTop from './utils/ScrollToTop';
 import registerServiceWorker from './registerServiceWorker';
@@ -12,11 +12,11 @@ const store = configureStore();
 
 ReactDOM.render(
   <Provider onUpdate={() => window.scrollTo(0, 0)} store={store}>
-    <BrowserRouter basename={process.env.PUBLIC_URL}>
+    <HashRouter>
       <ScrollToTop>
         <App />
       </ScrollToTop>
-    </BrowserRouter>
+    </HashRouter>
   </Provider>,
   document.getElementById('app'),
 );
